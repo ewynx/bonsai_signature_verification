@@ -1,0 +1,12 @@
+[package]
+name = "host"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+methods = { path = "../methods" }
+risc0-zkvm = { version = "0.19.1", features = ["std"] }
+serde = "1.0"
+p256 = { version = "0.13.2", features = ["serde"] }
+rand_core = "0.6.4"
+bincode = "1.3.3"
